@@ -13,6 +13,8 @@
 		21957EF31A57A24C008EF3F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21957EF21A57A24C008EF3F7 /* Images.xcassets */; };
 		21957EF61A57A24C008EF3F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21957EF41A57A24C008EF3F7 /* LaunchScreen.xib */; };
 		21957F021A57A24C008EF3F7 /* WelcomeApp2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21957F011A57A24C008EF3F7 /* WelcomeApp2_0Tests.swift */; };
+		21DF1CC91A5E026D0078B9D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21DF1CCB1A5E026D0078B9D5 /* InfoPlist.strings */; };
+		21DF1CCE1A5E026E0078B9D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21DF1CD01A5E026E0078B9D5 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,10 @@
 		21957EFB1A57A24C008EF3F7 /* WelcomeApp2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomeApp2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21957F001A57A24C008EF3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21957F011A57A24C008EF3F7 /* WelcomeApp2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeApp2_0Tests.swift; sourceTree = "<group>"; };
+		21DF1CCA1A5E026D0078B9D5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21DF1CCF1A5E026E0078B9D5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21DF1CD11A5E026E0078B9D5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		21DF1CD21A5E026F0078B9D5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		21957EE91A57A24C008EF3F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21DF1CCB1A5E026D0078B9D5 /* InfoPlist.strings */,
 				21957EEA1A57A24C008EF3F7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +114,7 @@
 		21957EFF1A57A24C008EF3F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21DF1CD01A5E026E0078B9D5 /* InfoPlist.strings */,
 				21957F001A57A24C008EF3F7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21957EF11A57A24C008EF3F7 /* Main.storyboard in Resources */,
+				21DF1CC91A5E026D0078B9D5 /* InfoPlist.strings in Resources */,
 				21957EF61A57A24C008EF3F7 /* LaunchScreen.xib in Resources */,
 				21957EF31A57A24C008EF3F7 /* Images.xcassets in Resources */,
 			);
@@ -202,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DF1CCE1A5E026E0078B9D5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				21957EF01A57A24C008EF3F7 /* Base */,
+				21DF1CD11A5E026E0078B9D5 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -248,8 +259,25 @@
 			isa = PBXVariantGroup;
 			children = (
 				21957EF51A57A24C008EF3F7 /* Base */,
+				21DF1CD21A5E026F0078B9D5 /* es */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		21DF1CCB1A5E026D0078B9D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DF1CCA1A5E026D0078B9D5 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21DF1CD01A5E026E0078B9D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DF1CCF1A5E026E0078B9D5 /* es */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,6 +435,7 @@
 				21957F071A57A24C008EF3F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21957F081A57A24C008EF3F7 /* Build configuration list for PBXNativeTarget "WelcomeApp2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +444,7 @@
 				21957F0A1A57A24C008EF3F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
